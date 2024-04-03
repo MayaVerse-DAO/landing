@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Kolker+Brush:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rock+3D:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-raleway: Raleway;
+  --font-roboto: Roboto;
+  --font-rock-3d: "Rock 3D";
+  --font-kolker-brush: "Kolker Brush";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-5xl: 24px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-mediumseagreen-100: #2ab670;
+  --color-mediumseagreen-200: #129c57;
+
+  /* Gaps */
+  --gap-xl: 20px;
+
+  /* Paddings */
+  --padding-xl: 20px;
+  --padding-10xs: 3px;
+  --padding-3xs: 10px;
+  --padding-8xl: 27px;
+
+  /* Border radiuses */
+  --br-mini: 15px;
+}

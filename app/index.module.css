@@ -1,0 +1,383 @@
+.frameChild {
+  height: 66px;
+  width: 2px;
+  position: relative;
+  border-right: 2px solid var(--color-white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.lineWrapper {
+  width: 196px;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.mayaverse {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  white-space: nowrap;
+  z-index: 1;
+}
+.aboutUs,
+.blogs,
+.guide,
+.rooms {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.aboutUs {
+  min-width: 105px;
+  white-space: nowrap;
+}
+.blogs,
+.guide,
+.rooms {
+  background: linear-gradient(#fff, #fff), #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  min-width: 68px;
+}
+.blogs,
+.rooms {
+  min-width: 79px;
+}
+.blogs {
+  min-width: 65px;
+}
+.aboutUsParent {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-raleway);
+}
+.socialMediaIconsInner {
+  margin: 0;
+  width: 497px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 25px 0 0;
+  box-sizing: border-box;
+}
+.baseInner,
+.frameParent,
+.socialMediaIcons,
+.socialMediaIconsInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.socialMediaIcons {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.baseInner,
+.frameParent {
+  justify-content: flex-start;
+}
+.frameParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 16px;
+}
+.baseInner {
+  width: 807px;
+  flex-direction: row;
+  padding: 0 var(--padding-10xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 64px;
+  color: var(--color-white);
+  font-family: var(--font-kolker-brush);
+}
+.bgIcon {
+  position: absolute;
+  top: -19px;
+  left: 0;
+  width: 2268px;
+  height: 1055px;
+  object-fit: cover;
+}
+.instagramIcon,
+.style3Copy4,
+.twitterIcon {
+  position: absolute;
+  top: 894px;
+  left: 80px;
+  width: 50px;
+  height: 50px;
+  z-index: 1;
+}
+.instagramIcon,
+.style3Copy4 {
+  left: 150px;
+}
+.style3Copy4 {
+  left: 220px;
+}
+.bgParent {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  max-width: 100%;
+  overflow: hidden;
+
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.say {
+  margin: 0;
+}
+.my,
+.name {
+  margin: 0;
+  white-space: pre-wrap;
+}
+.sayMyNameContainer1 {
+  width: 100%;
+}
+.sayMyNameContainer {
+  margin: 0;
+  width: 717px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.sayMyNameWrapper {
+  width: 891px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.buttonRegisterChild {
+  height: 56px;
+  width: 200px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-mediumseagreen-100);
+  display: none;
+}
+.createAccount {
+  height: 36px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.buttonLoginChild,
+.buttonRegister {
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+}
+.buttonRegister {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-8xl);
+  background-color: var(--color-mediumseagreen-100);
+  flex: 1;
+  box-shadow: -4px 4px 20px rgba(193, 0, 0, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 130px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonRegister:hover {
+  background-color: var(--color-mediumseagreen-200);
+}
+.buttonLoginChild {
+  height: 56px;
+  width: 184px;
+  position: relative;
+  border: 3px solid var(--color-mediumseagreen-100);
+  display: none;
+}
+.buttonLogin,
+.login {
+  display: flex;
+  z-index: 1;
+}
+.login {
+  height: 36px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-mediumseagreen-100);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.buttonLogin {
+  cursor: pointer;
+  border: 3px solid var(--color-mediumseagreen-100);
+  padding: var(--padding-3xs) var(--padding-8xl);
+  background-color: transparent;
+  width: 184px;
+  border-radius: var(--br-mini);
+  box-shadow: -4px 4px 20px rgba(193, 0, 0, 0.2);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonLogin:hover {
+  background-color: rgba(18, 156, 87, 0.09);
+  border: 3px solid var(--color-mediumseagreen-200);
+  box-sizing: border-box;
+}
+.createAccountLogin,
+.createAccountLoginWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.createAccountLogin {
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+.createAccountLoginWrapper {
+  width: 430px;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 30px;
+  box-sizing: border-box;
+}
+.callToSocialMedia,
+.followUs1 {
+  position: relative;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.followUs1 {
+  margin: 0;
+  width: 195px;
+  font-size: inherit;
+  font-weight: 100;
+  font-family: inherit;
+  display: inline-block;
+  padding-right: var(--padding-xl);
+}
+.callToSocialMedia {
+  align-self: stretch;
+  width: 1092px;
+  border-top: 2px solid #9f9f9f;
+  max-width: 100%;
+}
+.base,
+.buttonSeparator,
+.followUs {
+  display: flex;
+  align-items: flex-start;
+}
+.buttonSeparator {
+  align-self: stretch;
+  height: 2px;
+  flex-direction: row;
+  justify-content: flex-end;
+  max-width: 100%;
+}
+.base,
+.followUs {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.followUs {
+  align-self: stretch;
+  gap: 47px;
+  max-width: 100%;
+  text-align: center;
+  font-size: 36px;
+  color: var(--color-white);
+  font-family: var(--font-raleway);
+}
+.base {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding: 0 0 103px 77px;
+  box-sizing: border-box;
+  gap: 53px;
+  background-image: url(/base@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 100px;
+  color: var(--color-mediumseagreen-100);
+  font-family: var(--font-rock-3d);
+}
+@media screen and (max-width: 800px) {
+  .socialMediaIconsInner {
+    display: none;
+  }
+  .sayMyNameContainer {
+    font-size: 50px;
+  }
+  .followUs1 {
+    font-size: 29px;
+  }
+  .base {
+    gap: 26px 53px;
+    padding-left: 38px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 675px) {
+  .followUs {
+    gap: 23px 47px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sayMyNameContainer {
+    font-size: 30px;
+  }
+  .createAccountLogin {
+    gap: var(--gap-xl);
+  }
+  .followUs1 {
+    font-size: 22px;
+  }
+}
