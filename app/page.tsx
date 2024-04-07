@@ -63,11 +63,15 @@ const Home: NextPage = () => {
         <div className={styles.createAccountLogin}>
           <button className={styles.buttonRegister}>
             <div className={styles.buttonRegisterChild} />
-            <div className={styles.createAccount}>Create Account</div>
+            <Link href={"https://register-mayaverse.vercel.app/"}>
+              <div className={styles.createAccount}>Create Account</div>
+            </Link>
           </button>
           <button className={styles.buttonLogin}>
             <div className={styles.buttonLoginChild} />
-            <div className={styles.login}>Login</div>
+            <Link href={"https://login-mayaverse.vercel.app/"}>
+              <div className={styles.login}>Login</div>
+            </Link>
           </button>
         </div>
       </div>
