@@ -33,27 +33,18 @@
   font-weight: 600;
   display: inline-block;
   z-index: 1;
+  -webkit-text-fill-color: aquamarine;
 }
 .aboutUs {
   min-width: 105px;
   white-space: nowrap;
 }
-.blogs,
-.guide,
-.rooms {
-  background: linear-gradient(#fff, #fff), #fff;
-  -webkit-background-clip: text;
-  background-clip: unset;
-  -webkit-text-fill-color: transparent;
-  min-width: 68px;
-}
-.blogs,
-.rooms {
+
+.docs,
+.socials {
   min-width: 79px;
 }
-.blogs {
-  min-width: 65px;
-}
+
 .aboutUsParent {
   margin: 0;
   align-self: stretch;
