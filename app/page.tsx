@@ -19,7 +19,12 @@ const Home: NextPage = () => {
                 <Link href={"https://linktr.ee/mayaverse"} target="_blank">
                   <div className={styles.rooms}>Socials</div>
                 </Link>
-                <div className={styles.blogs}>Blogs</div>
+                <Link
+                  href={"https://mayaverse.gitbook.io/mayaverse/"}
+                  target="_blank"
+                >
+                  <div className={styles.blogs}>Docs</div>
+                </Link>
               </nav>
             </nav>
           </div>
