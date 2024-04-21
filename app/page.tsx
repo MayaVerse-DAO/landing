@@ -17,13 +17,13 @@ const Home: NextPage = () => {
                 <div className={styles.aboutUs}>About Us</div>
                 <div className={styles.guide}>Guide</div>
                 <Link href={"https://linktr.ee/mayaverse"} target="_blank">
-                  <div className={styles.rooms}>Socials</div>
+                  <div className={styles.socials}>Socials</div>
                 </Link>
                 <Link
                   href={"https://mayaverse.gitbook.io/mayaverse/"}
                   target="_blank"
                 >
-                  <div className={styles.blogs}>Docs</div>
+                  <div className={styles.docs}>Docs</div>
                 </Link>
               </nav>
             </nav>
@@ -34,7 +34,7 @@ const Home: NextPage = () => {
         <img
           className={styles.bgIcon}
           alt=""
-          src="https://gateway.ipfs.io/ipfs/QmZJ3qQ4J86vATRgyAsUbSqgpYtZV1Beza6dqcbZTeBDJM"
+          src="https://i.postimg.cc/QMwXknJw/back.png"
         />
         <img
           className={styles.twitterIcon}

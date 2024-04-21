@@ -26,9 +26,9 @@
   z-index: 1;
 }
 .aboutUs,
-.blogs,
+.docs,
 .guide,
-.rooms {
+.socials {
   position: relative;
   font-weight: 600;
   display: inline-block;
